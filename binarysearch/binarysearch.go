@@ -6,7 +6,7 @@ func BinarySearch(intSlice []int, target int) int {
 
 	// 必须 <=
 	for start <= end {
-		// 此处向下取整, 也可向上取整. 奇数mid指向中间位置
+		// 此处向下取整, 也可向上取整
 		mid := (start + end) / 2
 		if intSlice[mid] == target {
 			return mid
